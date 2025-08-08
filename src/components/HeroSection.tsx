@@ -31,7 +31,7 @@ const HeroSection = () => {
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Passionate about building innovative solutions with modern technologies. 
-            Specializing in full-stack development, data science, and machine learning.
+            Specializing in Data Analyst, data science, and machine learning.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
