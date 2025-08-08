@@ -20,8 +20,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Multi Culture Sign Language Detecion And Recognition Using Fine Tuned Convoolutional Neural Network",
-      description: "A Flask-based web application that uses a fine-tuned **YOLO** deep learning model with OpenCV to detect and recognize multi-cultural sign language gestures from images, videos, and live camera feeds.
-.",
+      description: "A Flask-based web application that uses a fine-tuned **YOLO** deep learning model with OpenCV to detect and recognize multi-cultural sign language gestures from images, videos, and live camera feeds..",
       image: project2,
       technologies: ["Python", "OpenCV", "SQLite", "Flask"],
       github: "#",
