@@ -3,13 +3,10 @@ import { Badge } from "@/components/ui/badge";
 
 const SkillsSection = () => {
   const skillCategories = [
+    
     {
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "SASS", "HTML5", "CSS3"]
-    },
-    {
-      title: "Backend Development", 
-      skills: ["Node.js", "Python", "Java", "Express.js", "Django", "Spring Boot", "REST APIs", "GraphQL"]
+      title: "Data Analyst",
+      skills: ["Python", "PowerBI", "Statistics", "Inferential Stats And Hypothesis Testing", "Feature Engineering", "Exploratory Data Analysis", "SQL"]
     },
     {
       title: "Database & Cloud",
@@ -73,10 +70,10 @@ const SkillsSection = () => {
           <h3 className="text-2xl font-bold text-center mb-8 gradient-text">Core Competencies</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
-              { skill: "Full-Stack Development", level: 90 },
+              { skill: "Data Analyst", level: 90 },
               { skill: "Data Structures & Algorithms", level: 95 },
               { skill: "Machine Learning", level: 85 },
-              { skill: "Cloud Technologies", level: 80 }
+           
             ].map((item, index) => (
               <div key={index} className="space-y-2 animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="flex justify-between items-center">
