@@ -10,20 +10,20 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      detail: "alex.johnson@email.com",
-      link: "mailto:alex.johnson@email.com"
+      detail: "yogasaichunduri@gmail.com",
+      link: "mailto:yogasaichunduri@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      detail: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      detail: "+91 8328406609",
+      link: "tel:+918328406609"
     },
     {
       icon: MapPin,
       title: "Location",
-      detail: "San Francisco, CA",
-      link: "#"
+      detail: "Dilsukhnagar,Hyderabad",
+      link: "13-5-96/K/1,+New+Dilsukh+Nagar+Colony,+Dilsukhnagar,+Hyderabad,+Telangana+500060,+India",
     }
   ];
 
