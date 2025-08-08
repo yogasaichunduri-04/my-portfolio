@@ -4,40 +4,32 @@ import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Star } from "lucide-react";
 import project1 from "@/assets/project1.jpg";
 import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/project3.jpg";
+
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with modern UI, payment integration, and admin dashboard. Built with React, Node.js, and MongoDB.",
+      title: "Web Based Image Processing And Enhancement Using Flask",
+      description: "A web-based image processing and enhancement project built using Flask that allows users to upload, modify, and enhance images in real-time through an intuitive browser interface..",
       image: project1,
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      technologies: ["Flask", "Python", "OpenCV/PIL"],
       github: "#",
       live: "#",
       featured: true,
       stars: 124
     },
     {
-      title: "ML Price Predictor",
-      description: "Machine learning model for real estate price prediction using Python, scikit-learn, and data visualization libraries.",
+      title: "Multi Culture Sign Language Detecion And Recognition Using Fine Tuned Convoolutional Neural Network",
+      description: "A Flask-based web application that uses a fine-tuned **YOLO** deep learning model with OpenCV to detect and recognize multi-cultural sign language gestures from images, videos, and live camera feeds.
+.",
       image: project2,
-      technologies: ["Python", "TensorFlow", "Pandas", "Flask", "React"],
+      technologies: ["Python", "OpenCV", "SQLite", "Flask"],
       github: "#",
       live: "#",
       featured: true,
       stars: 89
     },
-    {
-      title: "Task Management App",
-      description: "Productivity app with real-time collaboration, built using React Native and Firebase for cross-platform mobile experience.",
-      image: project3,
-      technologies: ["React Native", "Firebase", "TypeScript", "Redux"],
-      github: "#",
-      live: "#",
-      featured: false,
-      stars: 67
-    }
+    
   ];
 
   return (
