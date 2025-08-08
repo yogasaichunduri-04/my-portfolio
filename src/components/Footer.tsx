@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold gradient-text">Alex Johnson</h3>
+            <h3 className="text-2xl font-bold gradient-text">Chunduri Yogasai</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Final year CS student passionate about creating innovative solutions 
+              Final year Data Science student passionate about creating innovative solutions 
               and pushing the boundaries of technology.
             </p>
             <div className="flex gap-4">
@@ -56,9 +56,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>alex.johnson@email.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>yogasaichunduri@gmail.com</p>
+              <p>+91 8328406609</p>
+              <p>Dilsukhnagar,Hyderabad</p>
             </div>
             <Button variant="gradient" className="w-full md:w-auto">
               <Mail className="mr-2 h-4 w-4" />
@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="border-t border-primary/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2024 Alex Johnson. All rights reserved.
+              © 2024 Chunduri Yogasai. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm flex items-center gap-2">
               Made with <Heart className="h-4 w-4 text-red-500 fill-current" /> using React & Tailwind CSS
